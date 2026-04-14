@@ -18,3 +18,8 @@ Bu proje, Flutter ile geliştirilmiş temel bir e-ticaret/katalog uygulamasıdı
 1. Projeyi bilgisayarınıza klonlayın: `git clone https://github.com/MeryemBusraAltay/flutter-ecommerce-app.git`
 2. Terminali açın ve bağımlılıkları yükleyin: `flutter pub get`
 3. Bir emülatör başlatın ve projeyi çalıştırın: `flutter run`
+
+## Ekran Görüntüleri
+![Uygulama Ekran Görüntüsü](screenshots/anasayfa.png)
+![Uygulama Ekran Görüntüsü](screenshots/urundetay.png)
+![Uygulama Ekran Görüntüsü](screenshots/sepet.png)
