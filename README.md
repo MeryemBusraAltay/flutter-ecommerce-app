@@ -1,17 +1,25 @@
-# katalog_projesi
+# Mini Katalog Uygulaması
 
-A new Flutter project.
+Bu proje, Flutter ile geliştirilmiş temel bir e-ticaret/katalog uygulamasıdır.
 
-## Getting Started
+## Kullanılan Teknolojiler
+* Flutter SDK (v3.41.6)
+* Dart (v3.11.4)
+* http paketi (v1.6.0 - API istekleri için)
 
-This project is a starting point for a Flutter application.
+## Özellikler
+* wantapi.com üzerinden JSON verisi çekme ve listeleme
+* GridView ile şık ürün listesi tasarımı
+* Navigator ile sayfalar arası ürün verisi taşıma
+* Ürün detay sayfası ve Hero geçiş animasyonları
+* Basit sepet sistemi simülasyonu
 
-A few resources to get you started if this is your first Flutter project:
+## Nasıl Çalıştırılır?
+1. Projeyi bilgisayarınıza klonlayın: `git clone https://github.com/MeryemBusraAltay/flutter-ecommerce-app.git`
+2. Terminali açın ve bağımlılıkları yükleyin: `flutter pub get`
+3. Bir emülatör başlatın ve projeyi çalıştırın: `flutter run`
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Ekran Görüntüleri
+![Uygulama Ekran Görüntüsü](screenshots/anasayfa.png)
+![Uygulama Ekran Görüntüsü](screenshots/urundetay.png)
+![Uygulama Ekran Görüntüsü](screenshots/sepet.png)
